@@ -1,0 +1,189 @@
+a, li, button, input {
+  transition: all 0.2s ease-out; }
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  width: 100%;
+  height: 100%;
+  background-color: #F2F3F4 !important; }
+
+.header {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  background: #0060b1;
+  display: flex;
+  flex-direction: row; }
+  .header .logo {
+    margin: 20px 0;
+    width: 100%; }
+  .header #buscar {
+    margin: 20px 0;
+    width: 100%; }
+  .header #enviar {
+    width: 95%;
+    margin: 20px 0; }
+    .header #enviar .btn {
+      position: absolute;
+      bottom: -15px;
+      left: 90%;
+      border: 0;
+      color: #fff;
+      background: transparent; }
+      .header #enviar .btn img {
+        width: 75px;
+        height: auto; }
+  .header input {
+    border: 0; }
+    .header input::placeholder {
+      font-size: 14px; }
+  .header .login {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .header .login svg {
+      cursor: pointer;
+      color: #ff6500; }
+    .header .login #header_icon {
+      margin: 0 10px; }
+    .header .login p {
+      margin: 0;
+      font-size: 12px;
+      color: #ccdfef; }
+    .header .login a {
+      color: #fff;
+      font-weight: bold; }
+
+#header_sub {
+  padding: 0;
+  height: auto;
+  background: #ff6500; }
+  #header_sub button {
+    margin: 10px 0;
+    border-color: #fff; }
+    #header_sub button .navbar-toggler-icon {
+      color: #fff !important; }
+  #header_sub ul {
+    padding: 0 0 0 60px;
+    display: flex;
+    align-items: center; }
+    #header_sub ul li {
+      margin: 0 15px;
+      font-size: 15px; }
+      #header_sub ul li a {
+        color: #fff;
+        font-weight: bold; }
+  #header_sub .dropdown .dropdown-item {
+    color: #ff6500; }
+
+.banner {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 0 0; }
+  .banner img {
+    width: 100%;
+    height: auto; }
+
+.produtos .card {
+  width: auto;
+  height: auto;
+  margin: 20px 0;
+  padding: 5px 15px 15px 15px;
+  border: 0; }
+  .produtos .card .card-body {
+    padding: 0; }
+  .produtos .card .card-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #5e5e5e; }
+  .produtos .card a {
+    width: 100%;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    font-weight: bold;
+    background: #ff6500;
+    border: 0; }
+    .produtos .card a:hover {
+      cursor: pointer;
+      background: #c75000; }
+  .produtos .card img {
+    width: 100%;
+    padding: 20px 40px 0 40px;
+    margin: 0 0 20px 0; }
+  .produtos .card h4 {
+    font-weight: bold;
+    color: #ff6500;
+    margin: 0 0 5px 0; }
+  .produtos .card .h6_cinza, .produtos .card .infos .estrela {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #7c7c7c; }
+  .produtos .card .infos {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between; }
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  background: #004d8e; }
+  .footer input::placeholder {
+    font-size: 14px; }
+  .footer h6 {
+    font-weight: bold; }
+  .footer .barra {
+    height: auto;
+    padding: 25px 0;
+    margin: 0 0 10px 0;
+    background: #003a6a; }
+  .footer h3 {
+    font-weight: bold; }
+  .footer p {
+    margin: 0; }
+  .footer input {
+    margin: 12px 0; }
+  .footer button {
+    width: 100%;
+    height: auto;
+    font-size: 16PX;
+    margin: 12px 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 0;
+    background: #ff6500; }
+  .footer .menu {
+    padding: 20px 0; }
+    .footer .menu .redes_sociais, .footer .menu .apps {
+      display: flex;
+      justify-content: space-around; }
+      .footer .menu .redes_sociais img, .footer .menu .apps img {
+        width: 70%;
+        height: auto; }
+    .footer .menu .apps {
+      flex-direction: column; }
+      .footer .menu .apps img {
+        width: 60%;
+        height: auto;
+        margin: 5px 0; }
+    .footer .menu ul {
+      padding: 0; }
+    .footer .menu li {
+      font-size: 12px;
+      line-height: 2;
+      list-style-type: none; }
+    .footer .menu a {
+      color: #fff; }
+      .footer .menu a:hover {
+        color: #ff6500;
+        text-decoration: none; }
+  .footer .selos {
+    padding: 5px 0;
+    background: #fff; }
+  .footer .direitos {
+    padding: 20px 0 30px 0;
+    background: #003a6a; }
+    .footer .direitos p {
+      font-size: 12px; }

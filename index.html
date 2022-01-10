@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    
     <title>KaBuM! | Maior E-commerce do brasil!</title>
@@ -29,15 +29,13 @@
           <div class="col-md-6">
             <div class="input-group" id="enviar">
               <input type="text" class="form-control" placeholder="Pesquise aqui" aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-outline-secondary" type="button" id="button-addon2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ccdfef" class="bi bi-check-lg" viewBox="0 0 16 16">
-                  <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-                </svg>
+              <button type="button" class="btn">
+                <img src="img/botaokabum.png">
               </button>
             </div>
           </div>
           
-          <div class="col-md-4 ">
+          <div class="col-md-4">
             <div class="login">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ccdfef" class="bi bi-person-circle" viewBox="0 0 16 16">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -101,43 +99,54 @@
           </div>
         </div>
     </nav>
-      
-    <div class="background"></div>
 
     <div class="container">
+
       <div class="row">
         <div class="col-md-12">
-          <div class="barra">
-            <h4>NATAL</h4>
-            <h5>A PROMOÇÃO TERMINA EM: 14:23:15</h5>
+          <div class="banner">
+            <a href=""><img src="img/banner_img.png"></a>
           </div>
         </div>
       </div>
-      <div class="bg">
+  
+      <div class="produtos">
         <div class="row">
+
           <div class="col-md-3">
             <div class="card">
-              <img src="img/amd.jpg" class="card-img-top" alt="...">
+              <div class="infos">
+                <div class="d1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#aaa" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                    <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                  </svg>
+                </div>
+                <div class="d2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill " viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <div>
+                  </div>  
+                </div>
+              </div>
+              <img src="img/1.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">Processador AMD Ryzen 9 5900X, Cache 70MB, 3.7GHz (4.8GHz Max Turbo)</h6>
                 <h6 class="h6_cinza" style="text-decoration: line-through">R$5.000</h6>
-                <h4>R$3.900</h4>
+                <h4>R$390,00</h4>
                 <h6 class="h6_cinza">À vista no pix</h6>
-                <div class="infos">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <h6 class="estrela">(155)</h6>
-                </div>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
@@ -145,27 +154,38 @@
           
           <div class="col-md-3">
             <div class="card">
-              <img src="img/amd.jpg" class="card-img-top" alt="...">
+              <div class="infos">
+                <div class="d1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#aaa" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                    <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                  </svg>
+                </div>
+                <div class="d2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill " viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <div>
+                  </div>  
+                </div>
+              </div>
+              <img src="img/1.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">Processador AMD Ryzen 9 5900X, Cache 70MB, 3.7GHz (4.8GHz Max Turbo)</h6>
                 <h6 class="h6_cinza" style="text-decoration: line-through">R$5.000</h6>
-                <h4>R$3.900</h4>
+                <h4>R$390,00</h4>
                 <h6 class="h6_cinza">À vista no pix</h6>
-                <div class="infos">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <h6 class="estrela">(155)</h6>
-                </div>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
@@ -173,27 +193,38 @@
 
           <div class="col-md-3">
             <div class="card">
-              <img src="img/amd.jpg" class="card-img-top" alt="...">
+              <div class="infos">
+                <div class="d1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#aaa" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                    <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                  </svg>
+                </div>
+                <div class="d2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill " viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <div>
+                  </div>  
+                </div>
+              </div>
+              <img src="img/1.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">Processador AMD Ryzen 9 5900X, Cache 70MB, 3.7GHz (4.8GHz Max Turbo)</h6>
                 <h6 class="h6_cinza" style="text-decoration: line-through">R$5.000</h6>
-                <h4>R$3.900</h4>
+                <h4>R$390,00</h4>
                 <h6 class="h6_cinza">À vista no pix</h6>
-                <div class="infos">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <h6 class="estrela">(155)</h6>
-                </div>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
@@ -201,31 +232,43 @@
 
           <div class="col-md-3">
             <div class="card">
-              <img src="img/amd.jpg" class="card-img-top" alt="...">
+              <div class="infos">
+                <div class="d1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#aaa" class="bi bi-suit-heart" viewBox="0 0 16 16">
+                    <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                  </svg>
+                </div>
+                <div class="d2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill " viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#ff6500" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <div>
+                  </div>  
+                </div>
+              </div>
+              <img src="img/1.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">Processador AMD Ryzen 9 5900X, Cache 70MB, 3.7GHz (4.8GHz Max Turbo)</h6>
                 <h6 class="h6_cinza" style="text-decoration: line-through">R$5.000</h6>
-                <h4>R$3.900</h4>
+                <h4>R$390,00</h4>
                 <h6 class="h6_cinza">À vista no pix</h6>
-                <div class="infos">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                  </svg>
-                  <h6 class="estrela">(155)</h6>
-                </div>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
-          </div>
+          </div> 
+          
         </div>
       </div>
     </div>
@@ -261,86 +304,61 @@
 
           <div class="menu">
             <div class="row">
-              <div class="col-md-2">
+              <div class="col-md-3">
                 <h6>Departamentos</h6>
                 <ul class="">
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
+                  <li><a href="">Hardware</a></li>
+                  <li><a href="">Smartphones</a></li>
+                  <li><a href="">Periféricos</a></li>
+                  <li><a href="">Teclado e Mouse</a></li>
+                  <li><a href="">Computadores</a></li>
+                  <li><a href="">Placa de Vídeo</a></li>
+                  <li><a href="">Monitores</a></li>
+                  <li><a href="">Consoles</a></li>
                 </ul>
               </div>
-              <div class="col-md-2">
-                <h6>Departamentos</h6>
+              <div class="col-md-3">
+                <h6>Novidades e Promoções</h6>
                 <ul class="">
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
+                  <li><a href="">Seja Prime</a></li>
+                  <li><a href="">Black Friday</a></li>
+                  <li><a href="">Mega Maio</a></li>
+                  <li><a href="">Julho Gamer</a></li>
+                  <li><a href="">PIX</a></li>
+                  <li><a href="">Cartão Kabum</a></li>
                 </ul>
               </div>
-              <div class="col-md-2">
-                <h6>Departamentos</h6>
+              <div class="col-md-3">
+                <h6>Institucional</h6>
                 <ul class="">
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
+                  <li><a href="">Sobre o KaBuM!</a></li>
+                  <li><a href="">Políticas do Site</a></li>
+                  <li><a href="">Políticas de Privacidade</a></li>
+                  <li><a href="">Exerça seus Direitos</a></li>
+                  <li><a href="">Prêmios</a></li>
+                  <li><a href="">Trabalhe Conosco</a></li>
+                  <li><a href="">Código de Defesa</a></li>
+                  <li><a href="">Código de Ética</a></li>
                 </ul>
               </div>
-              <div class="col-md-2">
-                <h6>Departamentos</h6>
-                <ul class="">
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
+              <div class="col-md-3">
+                <h6>Redes Sociais</h6>
+                <ul class="redes_sociais">
+                  <li><a href=""><img src="img/facebook.png" ></a></li>
+                  <li><a href=""><img src="img/instagram.png" ></a></li>
+                  <li><a href=""><img src="img/linkedin.png" ></a></li>
+                  <li><a href=""><img src="img/twitter.png" ></a></li>
                 </ul>
-              </div>
-              <div class="col-md-2">
-                <h6>Departamentos</h6>
-                <ul class="">
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
+                <h6>Apps</h6>
+                <ul class="apps">
+                  <li><a href=""><img src="img/apple.png" ></a></li>
+                  <li><a href=""><img src="img/google.png" ></a></li>
                 </ul>
-              </div>
-              <div class="col-md-2">
-                <h6>Departamentos</h6>
-                <ul class="">
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
-                  <li><a href="">Exemplo</a></li>
                 </ul>
               </div>
             </div>
           </div>
+
         </div>
 
         <div class="selos">
